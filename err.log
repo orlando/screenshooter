@@ -1,0 +1,44 @@
+ReferenceError: skinId is not defined
+    at /Users/orlando/www/screenshotter/server.js:17:142
+    at callbacks (/Users/orlando/www/screenshotter/node_modules/express/lib/router/index.js:162:37)
+    at param (/Users/orlando/www/screenshotter/node_modules/express/lib/router/index.js:136:11)
+    at pass (/Users/orlando/www/screenshotter/node_modules/express/lib/router/index.js:143:5)
+    at Router._dispatch (/Users/orlando/www/screenshotter/node_modules/express/lib/router/index.js:171:5)
+    at Object.router (/Users/orlando/www/screenshotter/node_modules/express/lib/router/index.js:33:10)
+    at next (/Users/orlando/www/screenshotter/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+    at multipart (/Users/orlando/www/screenshotter/node_modules/express/node_modules/connect/lib/middleware/multipart.js:60:27)
+    at module.exports (/Users/orlando/www/screenshotter/node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:57:9)
+    at IncomingMessage.module.exports (/Users/orlando/www/screenshotter/node_modules/express/node_modules/connect/lib/middleware/urlencoded.js:68:11)
+ReferenceError: skinId is not defined
+    at /Users/orlando/www/screenshotter/server.js:19:142
+    at callbacks (/Users/orlando/www/screenshotter/node_modules/express/lib/router/index.js:162:37)
+    at param (/Users/orlando/www/screenshotter/node_modules/express/lib/router/index.js:136:11)
+    at pass (/Users/orlando/www/screenshotter/node_modules/express/lib/router/index.js:143:5)
+    at Router._dispatch (/Users/orlando/www/screenshotter/node_modules/express/lib/router/index.js:171:5)
+    at Object.router (/Users/orlando/www/screenshotter/node_modules/express/lib/router/index.js:33:10)
+    at next (/Users/orlando/www/screenshotter/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+    at multipart (/Users/orlando/www/screenshotter/node_modules/express/node_modules/connect/lib/middleware/multipart.js:60:27)
+    at module.exports (/Users/orlando/www/screenshotter/node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:57:9)
+    at IncomingMessage.module.exports (/Users/orlando/www/screenshotter/node_modules/express/node_modules/connect/lib/middleware/urlencoded.js:68:11)
+TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at /Users/orlando/www/screenshotter/server.js:21:123
+    at callbacks (/Users/orlando/www/screenshotter/node_modules/express/lib/router/index.js:162:37)
+    at param (/Users/orlando/www/screenshotter/node_modules/express/lib/router/index.js:136:11)
+    at pass (/Users/orlando/www/screenshotter/node_modules/express/lib/router/index.js:143:5)
+    at Router._dispatch (/Users/orlando/www/screenshotter/node_modules/express/lib/router/index.js:171:5)
+    at Object.router (/Users/orlando/www/screenshotter/node_modules/express/lib/router/index.js:33:10)
+    at next (/Users/orlando/www/screenshotter/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+    at multipart (/Users/orlando/www/screenshotter/node_modules/express/node_modules/connect/lib/middleware/multipart.js:60:27)
+    at module.exports (/Users/orlando/www/screenshotter/node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:57:9)
+TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at /Users/orlando/www/screenshotter/server.js:21:123
+    at callbacks (/Users/orlando/www/screenshotter/node_modules/express/lib/router/index.js:162:37)
+    at param (/Users/orlando/www/screenshotter/node_modules/express/lib/router/index.js:136:11)
+    at pass (/Users/orlando/www/screenshotter/node_modules/express/lib/router/index.js:143:5)
+    at Router._dispatch (/Users/orlando/www/screenshotter/node_modules/express/lib/router/index.js:171:5)
+    at Object.router (/Users/orlando/www/screenshotter/node_modules/express/lib/router/index.js:33:10)
+    at next (/Users/orlando/www/screenshotter/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+    at multipart (/Users/orlando/www/screenshotter/node_modules/express/node_modules/connect/lib/middleware/multipart.js:60:27)
+    at module.exports (/Users/orlando/www/screenshotter/node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:57:9)

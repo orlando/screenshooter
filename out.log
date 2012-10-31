@@ -1,0 +1,50 @@
+Listening on port 8080
+sended
+{ url: 'http://orlando.breezi.local:3000/api/v1/community/skins/1/preview',
+  callback: 'http://orlando.breezi.local:3000/api/v1/community/skins/screenshot',
+  skin_id: '2' }
+Listening on port 8080
+sended
+2
+http://orlando.breezi.local:3000/api/v1/community/skins/1/preview
+http://orlando.breezi.local:3000/api/v1/community/skins/screenshot
+Listening on port 8080
+sended
+Listening on port 8080
+{ domain: null,
+  _events: { close: [Function] },
+  _maxListeners: 10,
+  _handle: 
+   { writeQueueSize: 0,
+     owner: [Circular],
+     onread: [Function: onread] },
+  _pendingWriteReqs: 0,
+  _flags: 0,
+  _connectQueueSize: 0,
+  destroyed: false,
+  errorEmitted: false,
+  bytesRead: 0,
+  _bytesDispatched: 0,
+  allowHalfOpen: undefined,
+  writable: false,
+  readable: true,
+  _paused: false }
+Listening on port 8080
+{ domain: null,
+  _events: { close: [Function] },
+  _maxListeners: 10,
+  _handle: 
+   { writeQueueSize: 0,
+     owner: [Circular],
+     onread: [Function: onread] },
+  _pendingWriteReqs: 0,
+  _flags: 0,
+  _connectQueueSize: 0,
+  destroyed: false,
+  errorEmitted: false,
+  bytesRead: 0,
+  _bytesDispatched: 0,
+  allowHalfOpen: undefined,
+  writable: false,
+  readable: true,
+  _paused: false }

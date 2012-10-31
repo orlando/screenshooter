@@ -1,0 +1,10 @@
+{
+  "name": "screenshotter",
+  "description": "takes an url and a callback, returns a base64 screenshot in a post request",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.x",
+    "request": "~2.11.4"
+  }
+}
