@@ -11,7 +11,13 @@ else{
   page.viewportSize = { width: 1280, height: 720 };
 
   page.onConsoleMessage = function(msg) {
-    console.log(msg);
+    try {
+      JSON.parse(msg);
+    } catch (e) {
+      return false;
+    }
+    json = JSON.parse(msg);
+    console.log(json.base64);
   };
 
   page.onLoadFinished = function(status) {
@@ -19,8 +25,6 @@ else{
       console.log('Unable to access the network!');
       phantom.exit();
     }
-    console.log('page.onLoadFinished');
-    console.log(url);
     var pageClipRect = page.evaluate(function(){return document.getElementById("skin_preview").getBoundingClientRect();});
     page.clipRect = {
       top:    pageClipRect.top,
@@ -28,8 +32,7 @@ else{
       width:  pageClipRect.width,
       height: pageClipRect.height
     }
-    //page.render("test.png");
-    console.log(page.renderBase64("png"));
+    console.log(JSON.stringify({base64:page.renderBase64("png")}));
     phantom.exit();
   };
 
